@@ -3,7 +3,7 @@ import string
 import nltk
 import re
 from nltk.stem import WordNetLemmatizer
-
+nltk.download('stopwords')
 def clean_text1(test_str):
     test_str = test_str.lower()
     ref1_str = ""
