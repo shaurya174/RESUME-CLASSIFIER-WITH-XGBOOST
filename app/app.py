@@ -4,6 +4,7 @@ import nltk
 import re
 import joblib
 from nltk.stem import WordNetLemmatizer
+from nltk.corpus import stopwords
 nltk.download('stopwords')
 def clean_text1(test_str):
     test_str = test_str.lower()
