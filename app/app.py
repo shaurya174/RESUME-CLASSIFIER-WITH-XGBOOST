@@ -84,9 +84,10 @@ st.markdown(
 st.title("📄 Resume Classifier App")
 st.write("Upload a resume and let the model predict the most suitable job role!")
 import joblib
+
+tf_object = joblib.load('../Models/tf_object.pkl')
 idf_object = joblib.load('../Models/idf_object.pkl')
-tf_object = joblib.load('..Models/tf_object.pkl')
-xgb_model = joblib.load('..Models/xgboost_model.pkl')
+xgb_model = joblib.load('../Models/xgboost_model.pkl')
 uploaded_file = st.file_uploader("Upload your resume (PDF only)", type=["pdf"])
 if uploaded_file is not None:
     import fitz  # PyMuPDF
