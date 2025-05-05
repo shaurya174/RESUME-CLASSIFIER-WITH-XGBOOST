@@ -76,10 +76,15 @@ And many more...
 
 📌 Notes
 1) Resume must be in PDF format
+##DEPLOYEMENT
 
-2) Internet not required after model and vectorizer are loaded
+3) Internet not required after model and vectorizer are loaded
 
-3) Works locally and can be deployed to Hugging Face Spaces / Streamlit Cloud
+4) Works locally and can be deployed to Hugging Face Spaces / Streamlit Cloud
 
 📄 License
 This project is open source and available under the MIT License.
+
+##DEPLOYMENT
+1)Streamlit Cloud -> https://resume-classifier-with-xgboost-fuaelejvgoczklbrebeqhs.streamlit.app/ 
+2) Render -> https://resume-classifier-with-xgboost.onrender.com
